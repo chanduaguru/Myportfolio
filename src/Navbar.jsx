@@ -48,6 +48,14 @@ export default function Navbar() {
           Projects
         </Link>
 
+        <Link 
+          to="/certifications" 
+          className="text-3xl font-bold text-black pulse-light" 
+          style={{ animationDelay: '1s' }}
+        >
+          Certifications
+        </Link>
+
       </nav>
     </header>
   );

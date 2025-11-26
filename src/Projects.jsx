@@ -40,6 +40,18 @@ export default function Projects() {
       ],
       link: "https://github.com/chanduaguru/Court-Data-Fetcher.git" // Replace with actual link
     },
+    {
+      id: 4,
+      title: "Eleven Labs frontend clone",
+      image: "/elevenlabs.png", // Ensure this image exists in your public folder
+      description: ["Tech: React, Tailwind, Vite",
+                     "What I built: UI screens (dashboard, voice cards, controls), component-based layout, responsive design, and simple mock API for interactions.",
+                "Summary line for portfolio:",
+                "A sleek React + Tailwind clone of the ElevenLabs interface, built to master component design and polished UI behavior."
+      ],
+      link: "https://elevenlabs-frontend-git-main-chanduagurus-projects.vercel.app/"
+
+    }
     // Add more projects here following the same structure
   ];
 
